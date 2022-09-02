@@ -41,6 +41,11 @@ public class Employe {
 		this.prenom = prenom;
 	}
 
+	@Override
+	public String toString() {
+		return "Employe [id=" + id + ", nom=" + nom + ", prenom=" + prenom + "]";
+	}
+
 
 
 }
